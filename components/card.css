@@ -1,0 +1,26 @@
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: #00000010 0 10px 30px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    gap: 30px;
+    margin: 10px;
+    flex-basis: 280px;
+    flex: 1;
+}
+
+.card img {
+    width: 150px;
+    border-radius: 10px;
+}
+
